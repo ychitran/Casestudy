@@ -1,0 +1,851 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+/* Header logo*/
+
+.header {
+    width: 100%;
+    height: 205px;
+    background-color: #ffffff;
+}
+
+.header_mid {
+    height: 133px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.header_mid_inner {
+    background-color: #ffffff;
+    width: 75%;
+    margin: auto;
+    height: 133px;
+}
+
+.logo {
+    height: 133px;
+    margin: auto;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.logo img {
+    margin-top: 25px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+
+/* Header Menu */
+
+.header_bot {
+    height: 72px;
+}
+
+.header_bot_inner {
+    width: 75%;
+    height: 72px;
+    margin: auto;
+}
+
+.bot_nav_wrap {
+    height: 72px;
+    margin: auto;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #0d0c14;
+    text-transform: uppercase;
+    font-family: "Arya", sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.menu ul li a:hover {
+    color: rgba(187, 187, 187, 0.658);
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+}
+
+
+/* END HEADER -------------------------*/
+
+
+/*Midder ------------------------------------------------------*/
+
+.midder {
+    width: 100%;
+    height: 650px;
+}
+
+
+/* Slides Theme ---------*/
+
+.themes {
+    position: relative;
+    height: 650px;
+    width: 100%;
+}
+
+.themes img {
+    width: 100%;
+    height: 100%;
+}
+
+.themes .img-block {
+    position: absolute;
+    width: 45%;
+    height: 120px;
+    top: 16%;
+    left: 27%;
+}
+
+
+/*Block Theme -----------*/
+
+.img-block img {
+    width: 100%;
+}
+
+.img-block .text-content p {
+    color: white;
+    font-size: 28px;
+    font-family: "Arya", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-content .button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: rgb(255, 255, 255);
+}
+
+
+/* END MIDDER --------------------------------------*/
+
+
+/*Welcome----------------------*/
+
+.welcome {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+}
+
+.welcome-content {
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+
+/* Content left*/
+
+.welcome-content-left {
+    width: 55%;
+    height: 400px;
+    position: relative;
+}
+
+.content-inner-behind p {
+    color: #e2e2e2;
+    font-family: "Mrs Saint Delafield";
+    font-size: 125px;
+    text-align: center;
+    top: 1%;
+}
+
+.welcome-content-right {
+    width: 50%;
+    height: 500px;
+}
+
+.content-inner-front h2 {
+    font-family: "Arya", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.content-inner-below h6 {
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: #2e2e2e;
+    width: 75%;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.sign img {
+    margin: auto;
+    display: block;
+    padding: 15px;
+}
+
+
+/*Content right */
+
+.welcome-content-right {
+    width: 45%;
+    height: 400px;
+    display: flex;
+}
+
+.welcome-img-left img {
+    width: 100%;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.welcome-img-right img {
+    width: 100%;
+    height: 400px;
+    margin-left: 20px;
+}
+
+
+/* END WELCOME--------------------*/
+
+
+/* Hours ----------------------------------------------*/
+
+.hours {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+
+.hours-content {
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+
+/*Content left */
+
+.hours-content-left {
+    width: 45%;
+    height: 400px;
+    display: flex;
+}
+
+.hours-img-left img {
+    width: 100%;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.hours-img-right img {
+    width: 100%;
+    height: 400px;
+    margin-left: 20px;
+}
+
+
+/*Content right */
+
+.hours-content-right {
+    width: 55%;
+    height: 400px;
+    position: relative;
+    bottom: 9%;
+}
+
+.hours-content-inner-behind p {
+    color: #e2e2e2;
+    font-family: "Mrs Saint Delafield";
+    font-size: 125px;
+    text-align: center;
+    top: 1%;
+}
+
+.hours-welcome-content-right {
+    width: 50%;
+    height: 500px;
+}
+
+.hours-content-inner-front h2 {
+    font-family: "Arya", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 24%;
+    left: 34%;
+}
+
+.hours-content-inner-below h6 {
+    font-family: "Arya";
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: #2e2e2e;
+    width: 75%;
+    text-align: center;
+    margin-left: 12%;
+}
+
+
+/* END HOURS-------------------------------*/
+
+
+/* MENU --------------------------------------------------------------*/
+
+
+/* Menu Theme ----------------------------------------------*/
+
+.menu_themes {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.menu_themes img {
+    width: 100%;
+    height: 600px;
+}
+
+.menu_themes .menu_img_block {
+    position: absolute;
+    width: 45%;
+    height: 120px;
+    top: 32%;
+    left: 27%;
+}
+
+.menu_img_block h3 {
+    color: #ffffff;
+    font-family: "Mrs Saint Delafield";
+    font-size: 120px;
+    line-height: 150px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* Menu content ---------------------*/
+
+.menu_content {
+    height: 1200px;
+    width: 100%;
+}
+
+
+/* Menu content first ------- */
+
+.menu_content_first {
+    height: 600px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+
+.menu_content_first_left {
+    width: 33.33%;
+    height: 600px;
+    margin-right: 50px;
+}
+
+.menu_tittle {
+    height: 100px;
+}
+
+.menu_tittle h3 {
+    font-family: "Cormorant", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu_price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.menu_display h5 {
+    font-family: "Arya", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+}
+
+.menu_money span {
+    font-family: "Arya", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    outline: none;
+    text-align: right;
+}
+
+.menu_content_first_mid {
+    width: 33.33%;
+    height: 600px;
+    margin-right: 50px;
+}
+
+.menu_content_first_right {
+    width: 33.33%;
+    height: 600px;
+}
+
+p {
+    text-align: left;
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #606079;
+    margin: 10px 0 30px 0;
+}
+
+
+/*Menu content second----*/
+
+.menu_content_second {
+    height: 450px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+
+.menu_content_second_left {
+    width: 33.33%;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.menu_content_second_mid {
+    width: 33.33%;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.menu_content_second_right {
+    width: 33.33%;
+    height: 450px;
+}
+
+
+/* Column_inner ----*/
+
+.column_inner {
+    width: 100%;
+    height: 100px;
+}
+
+.column_button {
+    width: 10%;
+    height: 100px;
+    margin: auto;
+}
+
+.column_inner a {
+    font-family: "Arya", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-width: 0px;
+    background-color: #181818;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+
+/*END MENU ---------------------------------------------------------------------------------*/
+
+
+/*-----------GALLERY-----------*/
+
+
+/*Gallery content*/
+
+.gallery_content {
+    width: 100%;
+    height: 200px;
+}
+
+.gallery_heading {
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+
+.gallery-content-inner-behind p {
+    color: #e2e2e2;
+    font-family: "Mrs Saint Delafield";
+    font-size: 125px;
+    text-align: center;
+    top: 1%;
+}
+
+.gallery-content-inner-front h2 {
+    font-family: "Arya", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 38%;
+}
+
+
+/*Gallery picture*/
+
+.gallery_picture {
+    width: 100%;
+    height: 1200px;
+}
+
+.gallery_picture_top {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.picture_top_left {
+    width: 50%;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.picture_top_left img {
+    width: 100%;
+    height: 500px;
+}
+
+.picture_top_right {
+    width: 50%;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.picture_top_right img {
+    width: 100%;
+    height: 500px;
+}
+
+.gallery_picture_bottom {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.picture_bottom_left {
+    width: 50%;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.picture_bottom_left img {
+    width: 100%;
+    height: 500px;
+}
+
+.picture_bottom_right {
+    width: 50%;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.picture_right_top {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.picture_right_top img {
+    width: 100%;
+    height: 250px;
+}
+
+.picture_right_bottom {
+    width: 100%;
+    height: 230px;
+}
+
+.picture_right_bottom img {
+    width: 100%;
+    height: 230px;
+}
+
+
+/*End Gallery--------------------*/
+
+
+/*----------- EVENT---------------------------*/
+
+
+/*Event left ------*/
+
+.events {
+    height: 700px;
+    width: 100%;
+}
+
+.events-content {
+    height: 600px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+
+.events-left {
+    height: 600px;
+    width: 50%;
+}
+
+.events_picture_top {
+    width: 100%;
+    height: 280px;
+    display: flex;
+}
+
+.events_picture_left {
+    width: 50%;
+    height: 270px;
+    margin-right: 5px;
+}
+
+.events_picture_left img {
+    width: 100%;
+    height: 270px;
+}
+
+.events_picture_right {
+    width: 50%;
+    height: 270px;
+    margin-left: 5px;
+}
+
+.events_picture_right img {
+    width: 100%;
+    height: 270px;
+}
+
+.events_picture_bottom {
+    width: 100%;
+    height: 280px;
+    display: flex;
+}
+
+
+/* Events right */
+
+.events-right {
+    width: 50%;
+    height: 600px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.events-content-inner-behind p {
+    color: #e2e2e2;
+    font-family: "Mrs Saint Delafield";
+    font-size: 125px;
+    text-align: center;
+    top: 1%;
+}
+
+.events-content-inner-front h2 {
+    font-family: "Arya", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 34%;
+}
+
+.events-welcome-content-right {
+    width: 50%;
+    height: 400px;
+}
+
+
+/*---------------END EVENT-----------------------*/
+
+
+/*----------Testimonial---------------*/
+
+.img-block h3 {
+    font-family: "Mrs Saint Delafield";
+    font-size: 110px;
+    line-height: 120px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-content h4 {
+    font-family: "Arya";
+    font-size: 30px;
+    line-height: 120px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* End Testimonial */
+
+
+/*---------------Contact-----------------*/
+
+.contact {
+    width: 100%;
+    height: 400px;
+    background-color: #2a2a2a;
+    margin-top: 100px;
+}
+
+.contact_top {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.contact_images {
+    width: 12.5%;
+    height: 190px;
+}
+
+.contact_images img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact_bottom {
+    width: 100%;
+    height: 150px;
+}
+
+.contact_content {
+    width: 75%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+}
+
+.contact_content_left {
+    width: 33.33%;
+    height: 150px;
+}
+
+.contact_content_left h3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Cormorant", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+.contact_content_left p {
+    text-align: center;
+    font-family: "Arya";
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.contact_content_mid {
+    width: 33.33%;
+    height: 150px;
+}
+
+.contact_content_mid h3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Cormorant", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+.contact_content_mid p {
+    text-align: center;
+    font-family: "Arya";
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.contact_content_right {
+    width: 33.33%;
+    height: 150px;
+}
+
+.contact_content_right h3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Cormorant", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+.contact_content_right p {
+    text-align: center;
+    font-family: "Arya";
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.25);
+}
